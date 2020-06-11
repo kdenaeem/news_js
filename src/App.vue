@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <HelloWorld/>
+    <nodes></nodes>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+
 
 export default {
   name: "App",
